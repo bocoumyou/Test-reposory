@@ -49,15 +49,15 @@
 <distributionManagement>
  <!-- Publish the versioned releases here -->
  <repository>
-  <id>idyaTest</id>
-  <name>idyaTest</name>
+  <id>releases</id>
+  <name>Releases</name>
    <url>http://localhost:8081/nexus/content/repositories/releases</url>
  </repository>
 
  <!-- Publish the versioned releases here -->
  <snapshotRepository>
-  <id>idyaTesto</id>
-  <name>idyaTests</name>
+  <id>snapshots</id>
+  <name>Snapshots</name>
   <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
  </snapshotRepository>
 </distributionManagement>
@@ -65,8 +65,8 @@
 <!-- download artifacts from this repo -->
 <repositories>
  <repository>
-  <id>idyaTest</id>
-  <name>idyaTest</name>
+  <id>releases</id>
+  <name>Releases</name>
   <url>http://localhost:8081/nexus/content/groups/public</url>
   <releases>
    <enabled>true</enabled>
