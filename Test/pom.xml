@@ -44,14 +44,14 @@
             </plugin>
              </plugins>
     </build>
-    <distributionManagement>
-  <repository>
-    <id>sourceIdyal</id>
-    <url>http://localhost:8081/nexus/content/repositories/releases</url>
-  </repository>
-  <snapshotRepository>
-    <id>SourceIdyal</id>
-    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
+<distributionManagement>
+    <repository>
+      <id>sourcesup</id>
+      <url>http://localhost:8081/nexus/content/repositories/form-git-XXX-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>sourcesup</id>
+      <url>http://localhost:8081/nexus/content/repositories/form-git-XXX-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
