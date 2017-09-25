@@ -48,12 +48,14 @@
 
 <distributionManagement>
     <repository>
-      <id>sourcesup</id>
-      <url>http://sourcesup.renater.fr/nexus/content/repositories/form-git-XXX-releases</url>
+      <id>releases</id>
+      <name>RELEASES</name>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>sourcesup</id>
-      <url>http://sourcesup.renater.fr/nexus/content/repositories/form-git-XXX-snapshots</url>
+      <id>snapshot</id>
+      <name>IdyalSnapshot</name>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
